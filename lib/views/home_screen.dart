@@ -44,7 +44,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       children: [
                         Padding(
                           padding: EdgeInsetsGeometry.symmetric(horizontal: 12),
-                          child: Text('Pro', style: TextStyle(
+                          child: Text('EchoAI', style: TextStyle(
                             fontSize: 14,
                             color: AppColors.footerGrey,
                           ),),

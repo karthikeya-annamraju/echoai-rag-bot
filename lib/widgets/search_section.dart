@@ -30,9 +30,19 @@ class _SearchSectionState extends State<SearchSection> {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Text(
-          'Where knowledge begins',
+          'EchoAI',
           style: GoogleFonts.ibmPlexMono(
             fontSize: 40,
+            fontWeight: FontWeight.w800,
+            height: 1.2,
+            letterSpacing: -0.5,
+          ),
+        ),
+        SizedBox(height: 10,),
+        Text(
+          'Ask, Retrieve, Understand.',
+          style: GoogleFonts.ibmPlexMono(
+            fontSize: 15,
             fontWeight: FontWeight.w400,
             height: 1.2,
             letterSpacing: -0.5,
